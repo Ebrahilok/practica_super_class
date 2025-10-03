@@ -25,8 +25,8 @@ public Animal(String nombre, int edad, double peso, String habitat) {
     this.habitat = habitat;
 }
 
-Cómo crear una Subclase
-En la subclase, heredamos los atributos con la palabra clave extends.
+Cómo crear una Subclase.
+En otro archivo, heredamos los atributos con la palabra clave extends.
 Ejemplo: Si mi clase principal se llama Animal, ahora haré esto:
 public class Ocelote extends Animal {
     public Ocelote(String nombre, int edad, double peso, String habitat) {
